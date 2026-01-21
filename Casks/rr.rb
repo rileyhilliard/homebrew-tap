@@ -3,7 +3,7 @@ cask "rr" do
   name "rr"
   desc "Sync code and run commands on remote machines"
   homepage "https://github.com/rileyhilliard/rr"
-  version "0.14.1"
+  version "0.14.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "rr" do
     on_intel do
       url "https://github.com/rileyhilliard/rr/releases/download/v#{version}/rr_darwin_amd64.tar.gz",
         verified: "github.com/rileyhilliard/rr/"
-      sha256 "1d3290e63021ff77a59d07aa1cb462bb09d438121c2534c46a64c17a21e27f03"
+      sha256 "e243c987903db302c84f29bd4068f7acfbbba9018fb5fa67ea42480998ab702e"
     end
     on_arm do
       url "https://github.com/rileyhilliard/rr/releases/download/v#{version}/rr_darwin_arm64.tar.gz",
         verified: "github.com/rileyhilliard/rr/"
-      sha256 "62587b68e611babfe853ccad0fe2be1c93a41434f74d5a3291bb3dcf60a142d9"
+      sha256 "df99966ae9e8935719f6169e655d85e30367556637d3c8be7d114b684c5d3110"
     end
   end
 
@@ -28,12 +28,12 @@ cask "rr" do
     on_intel do
       url "https://github.com/rileyhilliard/rr/releases/download/v#{version}/rr_linux_amd64.tar.gz",
         verified: "github.com/rileyhilliard/rr/"
-      sha256 "dd5e978b3d65dbf10dffd11c0988eba07cf98c8744980aa65b47e8f9ecad567a"
+      sha256 "8bf26daab0a10ce7d8492c588858e4e815ddeea11a87c9e2004293eb4c61c0c1"
     end
     on_arm do
       url "https://github.com/rileyhilliard/rr/releases/download/v#{version}/rr_linux_arm64.tar.gz",
         verified: "github.com/rileyhilliard/rr/"
-      sha256 "c7449e8a0449bab86ab35f6e6e0e3648ae3ee6654c9ae91f82efd585063b3ec2"
+      sha256 "371d278ee7ad51d94235f49538fd73820fd24b1d80f03420965defef69bb8211"
     end
   end
 
